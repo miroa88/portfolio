@@ -1,0 +1,86 @@
+import React from "react";
+
+import { Container, Row, Col } from "react-bootstrap";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
+import Particle from "../../shared/UIElement/Particle";
+import Github from "../components/Github";
+import Techstack from "../components/Techstack";
+import Aboutcard from "../components/HomeCard";
+import laptopImg from "../../Assets/home.png";
+import Toolstack from "../components/Techstack";
+
+
+function Home() {
+  return (
+    <Container fluid className="about-section">
+      <Particle />
+      <Container>
+        <Row style={{ justifyContent: "center" }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "0px",
+              paddingBottom: "50px",
+            }}
+          >
+            <Aboutcard />
+          </Col>
+          <Col
+            md={5}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={laptopImg} alt="about" className="img-fluid" />
+          </Col>
+        </Row>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+
+        <Techstack />
+
+        <h1 className="project-heading">
+          <strong className="purple">Tools</strong> I use
+        </h1>
+        <Toolstack />
+
+        <Github />
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/miroa88"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/miro-abdalian-775859208/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+
+export default Home;
