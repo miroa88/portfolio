@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c9ba8f55.css",
-    "main.js": "/portfolio/static/js/main.838df3a8.js",
+    "main.js": "/portfolio/static/js/main.6cd3a4b6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/IoT_Intelligent_Systems.pdf": "/portfolio/static/media/IoT_Intelligent_Systems.52dce90523311fab269e.pdf",
     "static/media/Miro_Abdalian_resume.pdf": "/portfolio/static/media/Miro_Abdalian_resume.5a563594814994bff08c.pdf",
@@ -15,11 +15,11 @@
     "static/media/Flutter.png": "/portfolio/static/media/Flutter.a93a9b6dff4127998669.png",
     "index.html": "/portfolio/index.html",
     "main.c9ba8f55.css.map": "/portfolio/static/css/main.c9ba8f55.css.map",
-    "main.838df3a8.js.map": "/portfolio/static/js/main.838df3a8.js.map",
+    "main.6cd3a4b6.js.map": "/portfolio/static/js/main.6cd3a4b6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9ba8f55.css",
-    "static/js/main.838df3a8.js"
+    "static/js/main.6cd3a4b6.js"
   ]
 }
