@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c9ba8f55.css",
+    "main.js": "/portfolio/static/js/main.838df3a8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/IoT_Intelligent_Systems.pdf": "/portfolio/static/media/IoT_Intelligent_Systems.52dce90523311fab269e.pdf",
+    "static/media/Miro_Abdalian_resume.pdf": "/portfolio/static/media/Miro_Abdalian_resume.5a563594814994bff08c.pdf",
+    "static/media/IoT_Smart_Cites.pdf": "/portfolio/static/media/IoT_Smart_Cites.c82ec7d975e548e55334.pdf",
+    "static/media/C++.png": "/portfolio/static/media/C++.fc461cc8303a38559c80.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.29206f84f51c2608e24d.jpg",
+    "static/media/django.png": "/portfolio/static/media/django.a07e058511663968cecd.png",
+    "static/media/React.png": "/portfolio/static/media/React.6545554810dedb0e6017.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.4e092671631f719852ae.png",
+    "static/media/Python.png": "/portfolio/static/media/Python.d92e7fea6ee84ad0a37a.png",
+    "static/media/Flutter.png": "/portfolio/static/media/Flutter.a93a9b6dff4127998669.png",
+    "index.html": "/portfolio/index.html",
+    "main.c9ba8f55.css.map": "/portfolio/static/css/main.c9ba8f55.css.map",
+    "main.838df3a8.js.map": "/portfolio/static/js/main.838df3a8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9ba8f55.css",
+    "static/js/main.838df3a8.js"
+  ]
+}
