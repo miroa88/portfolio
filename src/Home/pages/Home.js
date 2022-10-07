@@ -8,10 +8,10 @@ import Particle from "../../shared/UIElement/Particle";
 import Github from "../components/Github";
 import Techstack from "../components/Techstack";
 import Aboutcard from "../components/HomeCard";
-import laptopImg from "../../Assets/home.png";
+import profileImg from "../../Assets/profile.jpg";
 import Toolstack from "../components/Techstack";
 
-
+import './Home.css';
 function Home() {
   return (
     <Container fluid className="about-section">
@@ -19,7 +19,14 @@ function Home() {
       <Container>
         <Row style={{ justifyContent: "center" }}>
           <Col
-            md={7}
+            md={4}
+            style={{ paddingTop: "25px", paddingBottom: "10px" }}
+            className="about-img"
+          >
+            <img src={profileImg} alt="about" className="img-fluid profile" />
+          </Col>
+          <Col
+            md={8}
             style={{
               justifyContent: "center",
               paddingTop: "0px",
@@ -27,13 +34,6 @@ function Home() {
             }}
           >
             <Aboutcard />
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">

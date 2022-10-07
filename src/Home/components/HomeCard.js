@@ -13,7 +13,7 @@ function AboutCard() {
             at <span className="purple">Cal Poly Pomona</span>.
             My main areas of interest include
             Object Oriented Programming, Data Structures, and Algorithms.
-            I enjoy developing web applications with Node.js and React.js using MongoDB. Likewise 
+            I enjoy developing web applications with Node.js and React.js using MongoDB. Likewise, 
             developing mobile applications with Flutter and Firebase.
             I've also recently begun exploring Machine Learning and AI 
             techniques and its application to process Big Data.
