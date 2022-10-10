@@ -11,14 +11,14 @@ const ParticlesComponent = () => {
     // using an empty options object will load the default options, which are static particles with no background and 3px radius, opacity 100%, white color
     // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
     return {
-      // background: {
-      //   color: "#000", // this sets a background color for the canvas
-      // },
+      background: {
+        color: "linear-gradient(to right, rgb(105, 0, 143), rgb(0, 95, 107));", // this sets a background color for the canvas
+      },
  
 
       fullScreen: {
         enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
-        zIndex: 0, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
+        zIndex: -1, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
       },
       interactivity: {
         events: {

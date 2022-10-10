@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             My name is <span className="purple">Miro Abdalian</span>
-            , and I'm a senior undergraduate student studying computer science (with data science minor) 
+            , I'm a senior undergraduate student studying computer science (with data science minor) 
             at <span className="purple">Cal Poly Pomona</span>.
             My main areas of interest include
             Object Oriented Programming, Data Structures, and Algorithms.
