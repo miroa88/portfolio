@@ -15,7 +15,7 @@ import './Home.css';
 function Home() {
   return (
     <Container fluid className="about-section">
-      <Particle />
+
       <Container>
         <Row style={{ justifyContent: "center" }}>
           <Col
@@ -79,6 +79,7 @@ function Home() {
           </Col>
         </Row>
       </Container>
+      <Particle />
     </Container>
   );
 }
