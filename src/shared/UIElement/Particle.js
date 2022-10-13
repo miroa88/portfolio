@@ -11,9 +11,9 @@ const ParticlesComponent = () => {
     // using an empty options object will load the default options, which are static particles with no background and 3px radius, opacity 100%, white color
     // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
     return {
-      background: {
-        color: "linear-gradient(to right, rgb(105, 0, 143), rgb(0, 95, 107));", // this sets a background color for the canvas
-      },
+      // background: {
+      //   color: "linear-gradient(to right, rgb(105, 0, 143), rgb(0, 95, 107));", // this sets a background color for the canvas
+      // },
  
 
       fullScreen: {
