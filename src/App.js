@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -19,19 +19,10 @@ import './style.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      upadateLoad(false);
-    }, 1200);
-
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <Router>
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="scroll">
         <Navbar />
         <ScrollToTop />
         <Routes>
