@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <Router>
-      <div className="scroll">
+      <div className="App scroll">
         <Navbar />
         <ScrollToTop />
         <Routes>
