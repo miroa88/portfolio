@@ -9,7 +9,7 @@ import Github from "../components/Github";
 import Techstack from "../components/Techstack";
 import Aboutcard from "../components/HomeCard";
 import profileImg from "../../Assets/profile.jpg";
-import Toolstack from "../components/Techstack";
+import Toolstack from "../components/Toolstack";
 
 import './Home.css';
 function Home() {
