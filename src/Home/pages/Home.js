@@ -5,7 +5,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 import Particle from "../../shared/UIElement/Particle";
-import Github from "../components/Github";
+// import Github from "../components/Github";
 import Techstack from "../components/Techstack";
 import Aboutcard from "../components/HomeCard";
 import profileImg from "../../Assets/profile.jpg";
@@ -47,13 +47,13 @@ function Home() {
         </h1>
         <Toolstack />
 
-        <Github />
+        {/* <Github /> */}
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
+            {/* <p>
               Feel free to <span className="purple">connect </span>with me
-            </p>
+            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
