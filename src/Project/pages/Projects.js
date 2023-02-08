@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={flutter}
               isBlog={false}
-              title="onTime"
+              title="On Time"
               ghLink="https://github.com/miroa88/flutter-ontime"
               demoLink="https://miroa88.github.io/landing-page/"
             />
@@ -35,9 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={react}
               isBlog={false}
-              title="Image AI"
+              title="AI Image Recognition"
               ghLink="https://github.com/miroa88/image_AI_frontend"
-              demoLink="https://github.com/miroa88/image_AI_backend"
+              demoLink="https://main.d3jixdxenlv1e8.amplifyapp.com/"
             />
           </Col>
 
@@ -45,7 +45,7 @@ function Projects() {
             <ProjectCard
               imgPath={python}
               isBlog={true}
-              title="PSS"
+              title="Personal Scheduling System"
               ghLink="https://github.com/CS3560-PSS-Project/Python-PSS"             
             />
           </Col>
@@ -54,21 +54,40 @@ function Projects() {
             <ProjectCard
               imgPath={jupyter}
               isBlog={true}
-              title="Machine Learning"
+              title="Big Data Capstone Project"
               ghLink="https://github.com/miroa88/jupyter"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={react}
+              isBlog={true}
+              title="In Style"
+              ghLink="https://instyle-boutique.web.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jupyter}
+              isBlog={false}
+              title="Machine Learning (KNN)"
+              ghLink="https://github.com/miroa88/knn"
+              demoLink="https://www.overleaf.com/read/dmjdwfffzqzt"
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={gcc}
               isBlog={true}
               title="Matrix"
               ghLink="https://github.com/miroa88/matrix"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={django}
               isBlog={false}
@@ -76,7 +95,7 @@ function Projects() {
               ghLink="https://github.com/miroa88/blog.git"
               demoLink="" 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

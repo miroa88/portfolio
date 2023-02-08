@@ -8,15 +8,14 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            My name is <span className="purple">Miro Abdalian</span>
-            , I'm a senior undergraduate student studying computer science (with data science minor) 
-            at <span className="purple">Cal Poly Pomona</span>.
-            My main areas of interest include
-            Object Oriented Programming, Data Structures, and Algorithms.
-            I enjoy developing web applications with Node.js and React.js using MongoDB. Likewise, 
-            developing mobile applications with Flutter and Firebase.
-            I've also recently begun exploring Machine Learning and AI 
-            techniques and its application to process Big Data.
+            My name is <span className="purple">Miro Abdalian</span>. I am a computer science leader 
+             graduated from California State Polytechnic University - Pomona in 
+             December 2022. I have expertise in software design, architecture, 
+            object-oriented programming, and agile development. I have demonstrated success with web 
+             technologies such as React and Node.js. My skills include cross-functional
+              team collaboration, hardware software verification, operational performance
+               requirements, software development life cycle, and shell scripting.
+                I am also experienced in creating software test procedures and utilizing modeling equipment/tools.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -26,7 +25,7 @@ function AboutCard() {
               <ImPointRight /> Fly Fishing
             </li>
             <li className="about-activity">
-              <ImPointRight /> Investing in Stocks
+              <ImPointRight /> Learning New Technologies
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
