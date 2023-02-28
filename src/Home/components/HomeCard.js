@@ -8,14 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            My name is <span className="purple">Miro Abdalian</span>. I am a computer science leader 
-             graduated from California State Polytechnic University - Pomona in 
-             December 2022. I have expertise in software design, architecture, 
-            object-oriented programming, and agile development. I have demonstrated success with web 
-             technologies such as React and Node.js. My skills include cross-functional
-              team collaboration, hardware software verification, operational performance
-               requirements, software development life cycle, and shell scripting.
-                I am also experienced in creating software test procedures and utilizing modeling equipment/tools.
+            Hello! I'm <span className="purple">Miro Abdalian</span>, a Software Engineer with experience in taking full-stack 
+            applications from scratch to production. I'm a recent graduate from California State 
+            Polytechnic University, Pomona, with a Computer Science major. I'm currently working
+             as a freelance developer, and over the last 4 years I've had the privilege to work 
+             with some amazing clients. My work includes creating mobile apps, web apps, backend
+              servers, handling small-scale DevOps, and developing desktop applications. 
+              I'm passionate about my work, and I'm always looking for new opportunities to 
+              use my skills to create something amazing. I'm excited to continue to work with 
+              clients, and I'm always open to new challenges.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -28,7 +29,7 @@ function AboutCard() {
               <ImPointRight /> Learning New Technologies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling
             </li>
           </ul>
 

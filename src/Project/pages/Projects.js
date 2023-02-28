@@ -7,7 +7,11 @@ import django from "../../Assets/Projects/django.png";
 import flutter from "../../Assets/Projects/Flutter.png";
 import jupyter from "../../Assets/Projects/Jupyter.png";
 import python from "../../Assets/Projects/Python.png";
+import reactNode from "../../Assets/Projects/ReactNode.png";
+import mern from "../../Assets/Projects/Mern.png";
+import colab from "../../Assets/Projects/Colab.png";
 import react from "../../Assets/Projects/React.png";
+import reactFire from "../../Assets/Projects/ReactFire.png";
 
 function Projects() {
   return (
@@ -23,23 +27,33 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={flutter}
+              imgPath={reactFire}
               isBlog={false}
-              title="On Time"
-              ghLink="https://github.com/miroa88/flutter-ontime"
-              demoLink="https://miroa88.github.io/landing-page/"
+              title="Online Store - eCommerce Web App"
+              ghLink="https://github.com/miroa88/blog.git"
+              demoLink="https://peaceful-cucurucho-02c3dc.netlify.app/" 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reactNode}
+              isBlog={false}
+              title="Image Recognition Web App"
+              ghLink="https://github.com/miroa88/image_AI_frontend"
+              demoLink="https://main.d3jixdxenlv1e8.amplifyapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={react}
+              imgPath={flutter}
               isBlog={false}
-              title="AI Image Recognition"
-              ghLink="https://github.com/miroa88/image_AI_frontend"
-              demoLink="https://main.d3jixdxenlv1e8.amplifyapp.com/"
+              title="Meeting Scheduler Mobile App"
+              ghLink="https://github.com/miroa88/flutter-ontime"
+              demoLink="https://miroa88.github.io/landing-page/"
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -54,8 +68,28 @@ function Projects() {
             <ProjectCard
               imgPath={jupyter}
               isBlog={true}
-              title="Big Data Capstone Project"
+              title="Logistic Regression Model"
               ghLink="https://github.com/miroa88/jupyter"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mern}
+              isBlog={false}
+              title="Inventory Management Web App"
+              ghLink=""
+              demoLink="https://instyle-boutique.web.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={colab}
+              isBlog={false}
+              title="KNN Machine Learning Model"
+              ghLink="https://github.com/miroa88/knn"
+              demoLink="https://www.overleaf.com/read/dmjdwfffzqzt"
             />
           </Col>
 
@@ -63,39 +97,11 @@ function Projects() {
             <ProjectCard
               imgPath={react}
               isBlog={true}
-              title="In Style"
-              ghLink="https://instyle-boutique.web.app"
+              title="Portfolio - Single Page web App "
+              ghLink="https://github.com/miroa88/portfolio"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={jupyter}
-              isBlog={false}
-              title="Machine Learning (KNN)"
-              ghLink="https://github.com/miroa88/knn"
-              demoLink="https://www.overleaf.com/read/dmjdwfffzqzt"
-            />
-          </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={gcc}
-              isBlog={true}
-              title="Matrix"
-              ghLink="https://github.com/miroa88/matrix"
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={django}
-              isBlog={false}
-              title="Blog"
-              ghLink="https://github.com/miroa88/blog.git"
-              demoLink="" 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
