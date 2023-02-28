@@ -30,7 +30,7 @@ function Projects() {
               imgPath={reactFire}
               isBlog={false}
               title="Online Store - eCommerce Web App"
-              ghLink="https://github.com/miroa88/blog.git"
+              ghLink="https://github.com/miroa88/online-shop"
               demoLink="https://peaceful-cucurucho-02c3dc.netlify.app/" 
             />
           </Col>
