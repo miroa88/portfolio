@@ -12,6 +12,7 @@ import mern from "../../Assets/Projects/Mern.png";
 import colab from "../../Assets/Projects/Colab.png";
 import react from "../../Assets/Projects/React.png";
 import reactFire from "../../Assets/Projects/ReactFire.png";
+import scikit from "../../Assets/Projects/Scikit.png";
 
 function Projects() {
   return (
@@ -66,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={jupyter}
+              imgPath={scikit}
               isBlog={true}
               title="Logistic Regression Model"
               ghLink="https://github.com/miroa88/jupyter"

@@ -11,9 +11,9 @@ function AboutCard() {
             Hello! I'm <span className="purple">Miro Abdalian</span>, a Software Engineer with experience in taking full-stack 
             applications from scratch to production. I'm a recent graduate from California State 
             Polytechnic University, Pomona, with a Computer Science major. I'm currently working
-             as a freelance developer, and over the last 4 years I've had the privilege to work 
+             as a freelance developer, and over the last year, I've had the privilege to work 
              with some amazing clients. My work includes creating mobile apps, web apps, backend
-              servers, handling small-scale DevOps, and developing desktop applications. 
+              servers and developing desktop applications. 
               I'm passionate about my work, and I'm always looking for new opportunities to 
               use my skills to create something amazing. I'm excited to continue to work with 
               clients, and I'm always open to new challenges.
