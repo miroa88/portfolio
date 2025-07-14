@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { SiVisualstudio } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -21,8 +22,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudio title="C#" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
