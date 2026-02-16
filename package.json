@@ -45,7 +45,8 @@
     ]
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.1.9",
     "gh-pages": "^4.0.0",
-    "@types/bootstrap": "^5.1.9"
+    "sitemap": "^8.0.0"
   }
 }

@@ -13,6 +13,7 @@ import colab from "../../Assets/Projects/Colab.png";
 import react from "../../Assets/Projects/React.png";
 import reactFire from "../../Assets/Projects/ReactFire.png";
 import scikit from "../../Assets/Projects/Scikit.png";
+import nextJS from "../../Assets/Projects/next.png";
 
 function Projects() {
   return (
@@ -26,6 +27,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nextJS}
+              isBlog={false}
+              title="Invoice Pilot - AI-powered App"
+              ghLink="https://github.com/miroa88/invoice-pilot"
+              demoLink="https://invoice-pilot-indol.vercel.app/" 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nextJS}
+              isBlog={false}
+              title="Calorie Companion - AI-powered App"
+              ghLink="https://github.com/miroa88/calorie-companion"
+              demoLink="https://calorie-companion.vercel.app/signin" 
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={reactFire}
