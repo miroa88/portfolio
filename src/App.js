@@ -11,8 +11,8 @@ import Footer from "./shared/UIElement/Footer";
 import ScrollToTop from "./shared/UIElement/ScrollToTop";
 import Home from './Home/pages/Home';
 import Projects from './Project/pages/Projects';
-import Reserach from './Research/pages/Research';
 import Resume from './Resume/pages/ResumeNew';
+import Services from './Services/pages/Services';
 
 import './App.css';
 import './style.css';
@@ -29,7 +29,7 @@ function App() {
           <Route path="/" element={<Home /> }/>
           <Route path="/project" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/research" element={<Reserach />} /> 
+          <Route path="/services" element={<Services />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

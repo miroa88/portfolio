@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from 'react-bootstrap/Card';
@@ -10,6 +10,9 @@ import { AiOutlineDownload } from "react-icons/ai";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 function Research() {
+  useEffect(() => {
+    document.title = "Research | Miro Abdalian — AI & IoT Publications";
+  }, []);
 
   return (
     <div>

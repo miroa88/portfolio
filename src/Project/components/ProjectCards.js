@@ -1,40 +1,41 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { BsGlobe, BsCpu, BsLightning, BsServer, BsCart3 } from "react-icons/bs";
+
+const categoryIcons = {
+  "IoT / Full-Stack": <BsCpu />,
+  "Desktop Application": <BsServer />,
+  "AI / Automation": <BsLightning />,
+  "Backend / API": <BsServer />,
+  "Full-Stack / E-Commerce": <BsCart3 />,
+};
 
 function ProjectCards(props) {
+  const icon = categoryIcons[props.category] || <BsGlobe />;
+
   return (
-    <Card >
-      <div style={{height: "80px", "padding-top": "5px"}}>
-        <img src={props.imgPath} alt="card-img" style={{height: "100%", width:'auto'}}/>
-      </div>
-      <Card.Body style={{ position: "relative" }}>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+    <Card className="project-card-view">
+      <Card.Body>
+        <div className="project-card-header">
+          <span className="project-card-icon">{icon}</span>
+          <div className="project-card-category">{props.category}</div>
+        </div>
+        <Card.Title className="project-card-title">{props.title}</Card.Title>
+        <Card.Text className="project-card-description">
           {props.description}
         </Card.Text>
-        {props.ghLink && <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          GitHub
-        </Button>}
-        {"\n"}
-        {"\n"}
-        
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
+        {props.tech && props.tech.length > 0 && (
+          <div className="project-tech-tags">
+            {props.tech.map((t, index) => (
+              <span key={index} className="project-tech-tag">
+                {t}
+              </span>
+            ))}
+          </div>
         )}
       </Card.Body>
     </Card>
   );
 }
+
 export default ProjectCards;

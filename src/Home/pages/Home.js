@@ -1,11 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 import Particle from "../../shared/UIElement/Particle";
-// import Github from "../components/Github";
 import Techstack from "../components/Techstack";
 import Aboutcard from "../components/HomeCard";
 import profileImg from "../../Assets/profile.jpg";
@@ -13,29 +11,38 @@ import Toolstack from "../components/Toolstack";
 
 import './Home.css';
 function Home() {
+  useEffect(() => {
+    document.title = "Miro Abdalian | Software Engineer — IoT, Full-Stack, AI";
+  }, []);
+
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center" }}>
-          <Col
-            md={4}
-            style={{ paddingTop: "25px", paddingBottom: "10px" }}
-            className="about-img"
-          >
-            <img src={profileImg} alt="about" className="img-fluid profile" />
+        {/* Hero Section */}
+        <Row className="hero-section">
+          <Col md={12} className="hero-content">
+            <div className="profile-wrapper">
+              <div className="profile-ring">
+                <img src={profileImg} alt="Miro Abdalian" className="profile" />
+              </div>
+            </div>
+            <h1 className="hero-name">
+              Miro <span className="purple">Abdalian</span>
+            </h1>
+            <p className="hero-tagline">
+              Software Engineer &nbsp;|&nbsp; Full-Stack & IoT Developer &nbsp;|&nbsp; M.S. CS @ UT Austin
+            </p>
           </Col>
-          <Col
-            md={8}
-            style={{
-              justifyContent: "center",
-              paddingTop: "0px",
-              paddingBottom: "50px",
-            }}
-          >
+        </Row>
+
+        {/* About Section */}
+        <Row style={{ justifyContent: "center", paddingTop: "30px" }}>
+          <Col md={10} lg={8}>
             <Aboutcard />
           </Col>
         </Row>
+
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
@@ -47,24 +54,13 @@ function Home() {
         </h1>
         <Toolstack />
 
-        {/* <Github /> */}
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            {/* <p>
+            <p>
               Feel free to <span className="purple">connect </span>with me
-            </p> */}
+            </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/miroa88"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/miro-abdalian-775859208/"

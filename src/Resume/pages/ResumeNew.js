@@ -59,7 +59,7 @@ function Resume() {
                 {/* Header */}
                 <div className="resume-header">
                   <h1 className="resume-name">Miro Abdalian</h1>
-                  <p className="resume-title-line">Software Engineer &nbsp;|&nbsp; Frontend &amp; Full-Stack</p>
+                  <p className="resume-title-line">Software Engineer &nbsp;|&nbsp; Full-Stack &amp; Systems Integration</p>
                   <div className="resume-contact-row">
                     <span className="resume-contact-item">
                       <AiOutlineEnvironment /> Glendale, CA
@@ -77,7 +77,7 @@ function Resume() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        LinkedIn
+                        linkedin.com/in/miro-abdalian
                       </a>
                     </span>
                     <span className="resume-contact-item">
@@ -98,12 +98,15 @@ function Resume() {
                   <h2 className="resume-section-heading">Summary</h2>
                   <div className="resume-divider"></div>
                   <p className="resume-summary-text">
-                    Frontend-focused Software Engineer with {new Date().getFullYear() - 2022}+ years of
-                    experience building user-facing applications, internal
-                    tooling, and automated systems. Skilled in React,
-                    TypeScript, Node.js, and REST APIs with a track record of
-                    shipping clean, maintainable code. Pursuing M.S. in
-                    Computer Science at UT Austin (Online).
+                    Software Engineer with 4+ years of experience building
+                    full-stack applications, internal tooling, and
+                    hardware-integrated systems for real-world deployments.
+                    Skilled in Python, C++, Node.js, React, and REST API
+                    design with hands-on experience bridging firmware data
+                    with desktop interfaces in a defense-adjacent RF/microwave
+                    hardware environment. Pursuing M.S. in Computer Science at
+                    UT Austin. U.S. citizen eligible for DoD Secret security
+                    clearance.
                   </p>
                 </div>
 
@@ -128,29 +131,35 @@ function Resume() {
                     </div>
                     <ul className="resume-entry-list">
                       <li>
-                        Built React-based dashboards for real-time monitoring
-                        of embedded hardware systems, bridging firmware data
-                        with accessible browser-facing interfaces
+                        Built desktop application for real-time monitoring of
+                        embedded RF hardware systems (BUCs, SSPAs), bridging
+                        firmware telemetry with REST microservices and a
+                        native desktop interface
                       </li>
                       <li>
                         Refactored burn-in test automation workflow, reducing
                         total test runtime from 3 days to 2 days through
-                        performance analysis and algorithmic improvements
+                        performance analysis, algorithmic improvements, and
+                        Python scripting
                       </li>
                       <li>
-                        Developed firmware update utilities used by internal
-                        teams and field customers, emphasizing reliability
-                        and clear error recovery flows
+                        Developed firmware update utilities and OTA
+                        distribution pipelines used by internal teams and
+                        field customers, emphasizing reliability, error
+                        recovery flows, and cloud-based manifest management
+                        (AWS)
                       </li>
                       <li>
-                        Develop Python and C++ services for deployment
-                        workflows and manage cloud-based software manifests
-                        for firmware distribution
+                        Designed and deployed Python and C++ backend services
+                        for device control, deployment workflows, and
+                        hardware-software integration across Linux-based
+                        embedded systems
                       </li>
                       <li>
-                        Participated in Agile sprint cycles, code reviews,
-                        and cross-functional communication with product and
-                        hardware teams
+                        Collaborated in Agile/Scrum sprint cycles, conducted
+                        code reviews, and coordinated cross-functional
+                        requirements with hardware, firmware, and product
+                        teams
                       </li>
                     </ul>
                   </div>
@@ -161,7 +170,7 @@ function Resume() {
                         <h3 className="resume-entry-title">
                           Full-Stack Developer
                         </h3>
-                        <p className="resume-entry-company">Freelance &mdash; Los Angeles, CA</p>
+                        <p className="resume-entry-company">Freelance - Los Angeles, CA</p>
                       </div>
                       <div className="resume-entry-date">
                         Jun 2022 &ndash; Mar 2023
@@ -169,13 +178,14 @@ function Resume() {
                     </div>
                     <ul className="resume-entry-list">
                       <li>
-                        Built a custom inventory management web app with 20+
-                        React components, Node.js/Express backend, and
-                        MongoDB database
+                        Built a custom inventory management web application
+                        with 20+ React components, Node.js/Express backend,
+                        MongoDB database, and RESTful API layer
                       </li>
                       <li>
-                        Built a PyTorch-based anomaly detection model to
-                        identify equipment faults from real-time sensor data
+                        Developed a PyTorch-based anomaly detection model to
+                        identify equipment faults from real-time sensor data,
+                        integrating ML inference into a full-stack pipeline
                       </li>
                     </ul>
                   </div>
@@ -211,18 +221,17 @@ function Resume() {
                     <div className="resume-entry-header">
                       <div className="resume-entry-info">
                         <h3 className="resume-entry-title">
-                          M.S. Computer Science (Online)
+                          M.S. Computer Science (In Progress)
                         </h3>
                         <p className="resume-entry-company">
-                          University of Texas at Austin
+                          University of Texas at Austin - Online
                         </p>
                       </div>
-                      <div className="resume-entry-date">In Progress</div>
+                      <div className="resume-entry-date">Expected 2027</div>
                     </div>
                     <p className="resume-entry-detail">
-                      Coursework: Deep Learning, Parallel Processing, Operating
-                      Systems, Distributed Systems, Machine Learning, Advanced
-                      Algorithms
+                      Coursework: Operating Systems, Parallel Processing,
+                      Distributed Systems, Deep Learning, Advanced Algorithms
                     </p>
                   </div>
 
@@ -239,7 +248,7 @@ function Resume() {
                       <div className="resume-entry-date">Dec 2022</div>
                     </div>
                     <p className="resume-entry-detail">
-                      President's Honor List &mdash; 2020&ndash;2022
+                      President's Honor List  2020-2022
                     </p>
                   </div>
                 </div>
@@ -252,37 +261,34 @@ function Resume() {
                     <div className="resume-skill-row">
                       <span className="resume-skill-label">Languages</span>
                       <span className="resume-skill-value">
-                        JavaScript/TypeScript, Python, C#, C++, HTML5, CSS3, SQL
+                        Python, C#, C++, JavaScript / TypeScript, HTML5, CSS3, SQL
                       </span>
                     </div>
                     <div className="resume-skill-row">
                       <span className="resume-skill-label">Frameworks</span>
                       <span className="resume-skill-value">
-                        React, Next.js, Node.js, Express, WPF, FastAPI, PyTorch
+                        React, Next.js, Node.js, Express, FastAPI, WPF, PyTorch
+                      </span>
+                    </div>
+                    <div className="resume-skill-row">
+                      <span className="resume-skill-label">Cloud &amp; DevOps</span>
+                      <span className="resume-skill-value">
+                        AWS, Docker, CI/CD Pipelines, Git, Linux
                       </span>
                     </div>
                     <div className="resume-skill-row">
                       <span className="resume-skill-label">Databases</span>
                       <span className="resume-skill-value">
-                        MongoDB, PostgreSQL, SQL Server, SQLite, Firebase
+                        PostgreSQL, MongoDB, SQL Server, SQLite, Firebase
                       </span>
                     </div>
                     <div className="resume-skill-row">
-                      <span className="resume-skill-label">Tools</span>
+                      <span className="resume-skill-label">Tools &amp; Methods</span>
                       <span className="resume-skill-value">
-                        Git, AWS, Linux, CI/CD, Agile/Scrum, Jest, MQTT
+                        REST API Design, Microservices, Agile/Scrum, TCP/UDP, Serial
                       </span>
                     </div>
                   </div>
-                </div>
-
-                {/* Languages */}
-                <div className="resume-block">
-                  <h2 className="resume-section-heading">Languages</h2>
-                  <div className="resume-divider"></div>
-                  <p className="resume-summary-text">
-                    English (Fluent) &nbsp;&bull;&nbsp; Armenian (Native) &nbsp;&bull;&nbsp; Farsi (Native)
-                  </p>
                 </div>
               </div>
             </Col>

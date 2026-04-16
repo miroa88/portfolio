@@ -696,7 +696,7 @@ button:focus {
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 20px;
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 .resume-contact-item {
